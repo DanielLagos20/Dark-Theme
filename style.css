@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 5rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #292929;
+  transition: background-color 0.7s ease;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+button {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  background-image: url(svg/luna.svg);
+  border: none;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+button:hover {
+  transform: scale(1.1);
+}
+
+.modo-oscuro {
+  background-color: #292929;
+  color: #f8f8f8;
+}
